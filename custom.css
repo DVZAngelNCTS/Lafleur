@@ -67,3 +67,9 @@
         margin: 1rem 0;
     }
 }
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}

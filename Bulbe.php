@@ -108,7 +108,7 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Produits :</h1><br>
+    <br><h1>Bulbes :</h1><br>
 
     <div class="product-container">
     <div class="product">
@@ -139,66 +139,6 @@
     </div>
     </div>
 
-    <br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Marguerite</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bouquet de 6 pensées</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Mélange varié</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Grande fleur</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Variété parfum</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Rosier arbustre</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-    </div>
     <!-- Scripts Bootstrap et FontAwesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

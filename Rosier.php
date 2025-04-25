@@ -108,68 +108,7 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Produits :</h1><br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Bulbe de bégonias</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bulbe de dahlias</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Glaïeul</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-    </div>
-
-    <br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Marguerite</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bouquet de 6 pensées</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Mélange varié</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <br>
+    <br><h1>Rosiers :</h1><br>
 
     <div class="product-container">
     <div class="product">
