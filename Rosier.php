@@ -108,36 +108,63 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Rosiers :</h1><br>
+    <div class="container">
+        <h1>Rosier :</h1>
 
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Grande fleur</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+        <div class="row row-margin-20">           
+            <!-- Produit 7 : Grande fleur -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_gdefleur.jpg" alt="Produit 7" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Grande fleur</b></h5>
+                        <p>
+                            Prix unitaire : 6.00 €
+                            Stocks : 35
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalGrandeFleur">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Variété parfum</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+            <!-- Produit 8 : Variété parfum -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_parfum.jpg" alt="Produit 8" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Variété parfum</b></h5>
+                        <p>
+                            Prix unitaire : 8.00 €
+                            Stocks : 78
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalVarieteParfum">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Rosier arbustre</div>
-        <div class="product-description">
-            
+            <!-- Produit 9 : Rosier arbustre -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_arbuste.jpg" alt="Produit 9" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Rosier arbustre</b></h5>
+                        <p>
+                            Prix unitaire : 15.00 €
+                            Stocks : 29
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalRosierArbustre">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="#" class="btn">En savoir plus</a>
     </div>
-    </div>
+    
     <!-- Scripts Bootstrap et FontAwesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

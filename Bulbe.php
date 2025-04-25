@@ -108,35 +108,61 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Bulbes :</h1><br>
+    <div class="container">
+        <h1>Bulbe :</h1>
 
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Bulbe de bégonias</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+        <div class="row row-margin-20">
+            <!-- Produit 1 : Bulbe de bégonias -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_begonia.jpg" alt="Image de 'bulbes begonia'" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bulbe de bégonias</b></h5>
+                        <p>
+                            Prix unitaire : 5.00 €
+                            Stocks : 125
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBulbesBegonia">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bulbe de dahlias</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+            <!-- Produit 2 : Bulbe de dahlias -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_dahlia.jpg" alt="Image de 'bulbes dahlia'" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bulbe de dahlias</b></h5>
+                        <p>
+                            Prix unitaire : 12.00 €
+                            Stocks : 100
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBulbesDahlia">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Glaïeul</div>
-        <div class="product-description">
-            
+            <!-- Produit 3 : Glaïeul -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_glaieul.jpg" alt="Produit 3" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Glaïeul</b></h5>
+                        <p>
+                            Prix unitaire : 7.00 €
+                            Stocks : 98
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalGlaioul">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
     </div>
 
     <!-- Scripts Bootstrap et FontAwesome -->

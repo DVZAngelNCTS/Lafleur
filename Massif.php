@@ -108,34 +108,62 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Plantes à massif :</h1><br>
+    <div class="container">
+        <h1>Massif :</h1>
 
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Marguerite</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+        <div class="row row-margin-20">
+            <!-- Produit 4 : Marguerite -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_marguerite.jpg" alt="Produit 4" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Marguerite</b></h5>
+                        <p>
+                            Prix unitaire : 3.50 €
+                            Stocks : 52
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalMarguerite">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bouquet de 6 pensées</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
+            <!-- Produit 5 : Bouquet de 6 pensées -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_pensee.jpg" alt="Produit 5" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bouquet de 6 pensées</b></h5>
+                        <p>
+                            Prix unitaire : 9.00 €
+                            Stocks : 45
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBouquetPensées">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Mélange varié</div>
-        <div class="product-description">
-            
+            <!-- Produit 6 : Mélange varié -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_melange.jpg" alt="Produit 6" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Mélange varié</b></h5>
+                        <p>
+                            Prix unitaire : 4.50 €
+                            Stocks : 21
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalMelangeVarie">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <a href="#" class="btn">En savoir plus</a>
     </div>
 
     <!-- Scripts Bootstrap et FontAwesome -->

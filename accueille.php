@@ -108,97 +108,169 @@
 
     <!-- Contenu principal du site irait ici -->
 
-    <br><h1>Produits :</h1><br>
+    <div class="container">
+        <h1>Produits :</h1>
 
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Bulbe de bégonias</div>
-        <div class="product-description">
-            
+        <div class="row row-margin-20">
+            <!-- Produit 1 : Bulbe de bégonias -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_begonia.jpg" alt="Image de 'bulbes begonia'" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bulbe de bégonias</b></h5>
+                        <p>
+                            Prix unitaire : 5.00 €
+                            Stocks : 125
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBulbesBegonia">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 2 : Bulbe de dahlias -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_dahlia.jpg" alt="Image de 'bulbes dahlia'" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bulbe de dahlias</b></h5>
+                        <p>
+                            Prix unitaire : 12.00 €
+                            Stocks : 100
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBulbesDahlia">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 3 : Glaïeul -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/bulbes_glaieul.jpg" alt="Produit 3" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Glaïeul</b></h5>
+                        <p>
+                            Prix unitaire : 7.00 €
+                            Stocks : 98
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalGlaioul">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 4 : Marguerite -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_marguerite.jpg" alt="Produit 4" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Marguerite</b></h5>
+                        <p>
+                            Prix unitaire : 3.50 €
+                            Stocks : 52
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalMarguerite">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 5 : Bouquet de 6 pensées -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_pensee.jpg" alt="Produit 5" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Bouquet de 6 pensées</b></h5>
+                        <p>
+                            Prix unitaire : 9.00 €
+                            Stocks : 45
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalBouquetPensées">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
 
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bulbe de dahlias</div>
-        <div class="product-description">
-            
+        <div class="row row-margin-20">           
+
+            <!-- Produit 6 : Mélange varié -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/massif_melange.jpg" alt="Produit 6" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Mélange varié</b></h5>
+                        <p>
+                            Prix unitaire : 4.50 €
+                            Stocks : 21
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalMelangeVarie">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Produit 7 : Grande fleur -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_gdefleur.jpg" alt="Produit 7" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Grande fleur</b></h5>
+                        <p>
+                            Prix unitaire : 6.00 €
+                            Stocks : 35
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalGrandeFleur">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 8 : Variété parfum -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_parfum.jpg" alt="Produit 8" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Variété parfum</b></h5>
+                        <p>
+                            Prix unitaire : 8.00 €
+                            Stocks : 78
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalVarieteParfum">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 9 : Rosier arbustre -->
+            <div class="col-custom">
+                <div class="card">
+                    <img src="images/rosiers_arbuste.jpg" alt="Produit 9" class="imgFleur">
+                    <div class="container text-center">
+                        <h5><b>Rosier arbustre</b></h5>
+                        <p>
+                            Prix unitaire : 15.00 €
+                            Stocks : 29
+                        </p>
+                        <button type="button" class="btn btn-primary btn-margin-10" data-bs-toggle="modal" data-bs-target="#modalRosierArbustre">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="#" class="btn">En savoir plus</a>
     </div>
 
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Glaïeul</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-    </div>
 
-    <br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Marguerite</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Bouquet de 6 pensées</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Mélange varié</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <br>
-
-    <div class="product-container">
-    <div class="product">
-        <img src="images/robot_familliale.webp" alt="Produit 1">
-        <div class="product-title">Grande fleur</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/drone_classique.webp" alt="Produit 2">
-        <div class="product-title">Variété parfum</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-
-    <div class="product">
-        <img src="images/robot_decombat.webp" alt="Produit 3">
-        <div class="product-title">Rosier arbustre</div>
-        <div class="product-description">
-            
-        </div>
-        <a href="#" class="btn">En savoir plus</a>
-    </div>
-    </div>
     <!-- Scripts Bootstrap et FontAwesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
