@@ -112,6 +112,8 @@
 
     <!-- Contenu principal du site irait ici -->
 
+    <br><h1>Produits :</h1><br>
+
     <div class="product-container">
     <div class="product">
         <img src="images/robot_familliale.webp" alt="Produit 1">
