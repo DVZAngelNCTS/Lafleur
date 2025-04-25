@@ -1,0 +1,69 @@
+.navbar-brand {
+    font-weight: bold;
+    color: #218838 !important;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+}
+
+.flower-icon {
+    color: #e83e8c;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-btn {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.search-btn:hover {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+}
+
+.nav-link {
+    color: #495057;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #218838;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border-color: #e9ecef;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #218838;
+}
+
+.badge-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e83e8c;
+}
+
+.user-actions .nav-link {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.user-actions i {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 992px) {
+    .search-bar {
+        margin: 1rem 0;
+    }
+}
