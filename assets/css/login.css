@@ -1,0 +1,182 @@
+/* --- VARIABLES --- */
+:root {
+    --green-primary: #5b8c5a;      /* Vert principal */
+    --green-light: #a4c3a2;        /* Vert clair */
+    --green-ultra-light: #e8f4e8;  /* Vert très clair */
+    --green-dark: #3c6b3a;         /* Vert foncé pour boutons et accents */
+    --cream: #f8f5e9;              /* Crème pour le fond */
+    --text-dark: #2c3e2b;          /* Texte foncé */
+    --text-light: #ffffff;         /* Texte clair */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #218838 !important;
+    font-size:xx-large;
+}
+
+/* --- STYLES DE BASE --- */
+body {
+    background-color: var(--cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- ÉLÉMENTS DÉCORATIFS DE FOND --- */
+.bg-shape {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.bg-shape-1 {
+    width: 500px;
+    height: 500px;
+    background-color: var(--green-light);
+    top: -100px;
+    left: -100px;
+}
+
+.bg-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--green-ultra-light);
+    bottom: -150px;
+    right: -100px;
+}
+
+.bg-shape-3 {
+    width: 300px;
+    height: 300px;
+    background-color: var(--green-light);
+    bottom: 20%;
+    left: 10%;
+    opacity: 0.2;
+}
+
+/* --- CONTAINER PRINCIPAL --- */
+.login-container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(91, 140, 90, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+/* --- LOGO ET TITRE --- */
+.logo h1 {
+    color: var(--green-primary);
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    font-style: italic;
+    color: var(--green-light);
+}
+
+/* --- MESSAGE D'ACCUEIL --- */
+.welcome-message {
+    color: var(--text-dark);
+    font-weight: 300;
+    position: relative;
+}
+
+.welcome-message::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--green-light);
+    margin: 15px auto 0;
+}
+
+/* --- FORMULAIRE --- */
+.form-label {
+    color: var(--text-dark);
+    font-size: 0.9rem;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--green-primary);
+    box-shadow: 0 0 0 3px rgba(91, 140, 90, 0.1);
+    background-color: white;
+}
+
+/* Icônes dans les champs */
+.input-group-text {
+    background-color: transparent;
+    border-left: none;
+    color: var(--green-light);
+}
+
+.input-group .form-control {
+    border-right: none;
+}
+
+/* --- BOUTON DE CONNEXION --- */
+.btn-login {
+    background-color: var(--green-primary);
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover, .btn-login:focus {
+    background-color: var(--green-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(91, 140, 90, 0.2);
+    color: white;
+}
+
+/* --- LIENS SECONDAIRES --- */
+.secondary-links {
+    font-size: 0.9rem;
+}
+
+.secondary-links a {
+    color: var(--green-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.secondary-links a:hover {
+    color: var(--green-dark);
+    text-decoration: underline;
+}
+
+/* --- SVG de la fleur --- */
+.flower-bloom {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 120px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 767.98px) {
+    .flower-bloom {
+        display: none;
+    }
+}

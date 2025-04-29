@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="/Lafleur/index.php">
             <i class="fas fa-seedling text-success me-2"></i>
-            <span class="fw-bold">FleurMarché</span>
+            <span class="fw-bold">LaFleur</span>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
