@@ -26,6 +26,7 @@ if(isset($_REQUEST['submit'])){
             $stmt = $pdo->prepare($sql);
             if ($stmt -> execute([$prenom, $nom, $email, $mot_de_pass])){
             echo "inscription reussi";
+            header("Location: connexion.html");
             } else{
                 echo "erreur lors de l'inscription";
 
