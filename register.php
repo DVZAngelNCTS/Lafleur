@@ -31,8 +31,6 @@ if(isset($_REQUEST['submit'])){
 
             }
 
-
-            // Suite de l'inscription
         }
         
     }
